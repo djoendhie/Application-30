@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65D2F5AFC2738A379F342CCC /* Pods_Sulsel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A82F7CE4822C2F6710A9435 /* Pods_Sulsel.framework */; };
+		D6336DC61FC701C300A0CE9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6336DC51FC701C300A0CE9B /* AppDelegate.swift */; };
+		D6336DC81FC701C300A0CE9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6336DC71FC701C300A0CE9B /* ViewController.swift */; };
+		D6336DCB1FC701C300A0CE9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6336DC91FC701C300A0CE9B /* Main.storyboard */; };
+		D6336DCD1FC701C300A0CE9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6336DCC1FC701C300A0CE9B /* Assets.xcassets */; };
+		D6336DD01FC701C300A0CE9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6336DCE1FC701C300A0CE9B /* LaunchScreen.storyboard */; };
+		D6336DDB1FC701C300A0CE9B /* SulselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6336DDA1FC701C300A0CE9B /* SulselTests.swift */; };
+		D6336DE61FC701C300A0CE9B /* SulselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6336DE51FC701C300A0CE9B /* SulselUITests.swift */; };
+		D6336DF41FC7062400A0CE9B /* ResepTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6336DF31FC7062400A0CE9B /* ResepTableViewCell.swift */; };
+		D6336DF61FC7063000A0CE9B /* ResepTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6336DF51FC7063000A0CE9B /* ResepTableViewController.swift */; };
+		D6336DF81FC7063F00A0CE9B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6336DF71FC7063F00A0CE9B /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6336DD71FC701C300A0CE9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6336DBA1FC701C300A0CE9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6336DC11FC701C300A0CE9B;
+			remoteInfo = Sulsel;
+		};
+		D6336DE21FC701C300A0CE9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6336DBA1FC701C300A0CE9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6336DC11FC701C300A0CE9B;
+			remoteInfo = Sulsel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A82F7CE4822C2F6710A9435 /* Pods_Sulsel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sulsel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E8C3E7E654B1808720D7F35 /* Pods-Sulsel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sulsel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sulsel/Pods-Sulsel.debug.xcconfig"; sourceTree = "<group>"; };
+		98DE501A010F6033B17337AA /* Pods-Sulsel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sulsel.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sulsel/Pods-Sulsel.release.xcconfig"; sourceTree = "<group>"; };
+		D6336DC21FC701C300A0CE9B /* Sulsel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sulsel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6336DC51FC701C300A0CE9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6336DC71FC701C300A0CE9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6336DCA1FC701C300A0CE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6336DCC1FC701C300A0CE9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6336DCF1FC701C300A0CE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6336DD11FC701C300A0CE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6336DD61FC701C300A0CE9B /* SulselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SulselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6336DDA1FC701C300A0CE9B /* SulselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SulselTests.swift; sourceTree = "<group>"; };
+		D6336DDC1FC701C300A0CE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6336DE11FC701C300A0CE9B /* SulselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SulselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6336DE51FC701C300A0CE9B /* SulselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SulselUITests.swift; sourceTree = "<group>"; };
+		D6336DE71FC701C300A0CE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6336DF31FC7062400A0CE9B /* ResepTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResepTableViewCell.swift; sourceTree = "<group>"; };
+		D6336DF51FC7063000A0CE9B /* ResepTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResepTableViewController.swift; sourceTree = "<group>"; };
+		D6336DF71FC7063F00A0CE9B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6336DBF1FC701C300A0CE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D2F5AFC2738A379F342CCC /* Pods_Sulsel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6336DD31FC701C300A0CE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6336DDE1FC701C300A0CE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08950122A0F998186F8D0DA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E8C3E7E654B1808720D7F35 /* Pods-Sulsel.debug.xcconfig */,
+				98DE501A010F6033B17337AA /* Pods-Sulsel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6336DB91FC701C300A0CE9B = {
+			isa = PBXGroup;
+			children = (
+				D6336DC41FC701C300A0CE9B /* Sulsel */,
+				D6336DD91FC701C300A0CE9B /* SulselTests */,
+				D6336DE41FC701C300A0CE9B /* SulselUITests */,
+				D6336DC31FC701C300A0CE9B /* Products */,
+				08950122A0F998186F8D0DA9 /* Pods */,
+				F4D1169EBF12A9A2A2666664 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6336DC31FC701C300A0CE9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6336DC21FC701C300A0CE9B /* Sulsel.app */,
+				D6336DD61FC701C300A0CE9B /* SulselTests.xctest */,
+				D6336DE11FC701C300A0CE9B /* SulselUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6336DC41FC701C300A0CE9B /* Sulsel */ = {
+			isa = PBXGroup;
+			children = (
+				D6336DC51FC701C300A0CE9B /* AppDelegate.swift */,
+				D6336DC71FC701C300A0CE9B /* ViewController.swift */,
+				D6336DC91FC701C300A0CE9B /* Main.storyboard */,
+				D6336DCC1FC701C300A0CE9B /* Assets.xcassets */,
+				D6336DCE1FC701C300A0CE9B /* LaunchScreen.storyboard */,
+				D6336DD11FC701C300A0CE9B /* Info.plist */,
+				D6336DF31FC7062400A0CE9B /* ResepTableViewCell.swift */,
+				D6336DF51FC7063000A0CE9B /* ResepTableViewController.swift */,
+				D6336DF71FC7063F00A0CE9B /* DetailViewController.swift */,
+			);
+			path = Sulsel;
+			sourceTree = "<group>";
+		};
+		D6336DD91FC701C300A0CE9B /* SulselTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6336DDA1FC701C300A0CE9B /* SulselTests.swift */,
+				D6336DDC1FC701C300A0CE9B /* Info.plist */,
+			);
+			path = SulselTests;
+			sourceTree = "<group>";
+		};
+		D6336DE41FC701C300A0CE9B /* SulselUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6336DE51FC701C300A0CE9B /* SulselUITests.swift */,
+				D6336DE71FC701C300A0CE9B /* Info.plist */,
+			);
+			path = SulselUITests;
+			sourceTree = "<group>";
+		};
+		F4D1169EBF12A9A2A2666664 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A82F7CE4822C2F6710A9435 /* Pods_Sulsel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6336DC11FC701C300A0CE9B /* Sulsel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6336DEA1FC701C300A0CE9B /* Build configuration list for PBXNativeTarget "Sulsel" */;
+			buildPhases = (
+				9BDDFC70986B39B1FB35195E /* [CP] Check Pods Manifest.lock */,
+				D6336DBE1FC701C300A0CE9B /* Sources */,
+				D6336DBF1FC701C300A0CE9B /* Frameworks */,
+				D6336DC01FC701C300A0CE9B /* Resources */,
+				7B5070A98F45CC8D8B34C63A /* [CP] Embed Pods Frameworks */,
+				22FFDC19C45216FE5FC23392 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sulsel;
+			productName = Sulsel;
+			productReference = D6336DC21FC701C300A0CE9B /* Sulsel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6336DD51FC701C300A0CE9B /* SulselTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6336DED1FC701C300A0CE9B /* Build configuration list for PBXNativeTarget "SulselTests" */;
+			buildPhases = (
+				D6336DD21FC701C300A0CE9B /* Sources */,
+				D6336DD31FC701C300A0CE9B /* Frameworks */,
+				D6336DD41FC701C300A0CE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6336DD81FC701C300A0CE9B /* PBXTargetDependency */,
+			);
+			name = SulselTests;
+			productName = SulselTests;
+			productReference = D6336DD61FC701C300A0CE9B /* SulselTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6336DE01FC701C300A0CE9B /* SulselUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6336DF01FC701C300A0CE9B /* Build configuration list for PBXNativeTarget "SulselUITests" */;
+			buildPhases = (
+				D6336DDD1FC701C300A0CE9B /* Sources */,
+				D6336DDE1FC701C300A0CE9B /* Frameworks */,
+				D6336DDF1FC701C300A0CE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6336DE31FC701C300A0CE9B /* PBXTargetDependency */,
+			);
+			name = SulselUITests;
+			productName = SulselUITests;
+			productReference = D6336DE11FC701C300A0CE9B /* SulselUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6336DBA1FC701C300A0CE9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Djoendhie;
+				TargetAttributes = {
+					D6336DC11FC701C300A0CE9B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					D6336DD51FC701C300A0CE9B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6336DC11FC701C300A0CE9B;
+					};
+					D6336DE01FC701C300A0CE9B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6336DC11FC701C300A0CE9B;
+					};
+				};
+			};
+			buildConfigurationList = D6336DBD1FC701C300A0CE9B /* Build configuration list for PBXProject "Sulsel" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6336DB91FC701C300A0CE9B;
+			productRefGroup = D6336DC31FC701C300A0CE9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6336DC11FC701C300A0CE9B /* Sulsel */,
+				D6336DD51FC701C300A0CE9B /* SulselTests */,
+				D6336DE01FC701C300A0CE9B /* SulselUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6336DC01FC701C300A0CE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6336DD01FC701C300A0CE9B /* LaunchScreen.storyboard in Resources */,
+				D6336DCD1FC701C300A0CE9B /* Assets.xcassets in Resources */,
+				D6336DCB1FC701C300A0CE9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6336DD41FC701C300A0CE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6336DDF1FC701C300A0CE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22FFDC19C45216FE5FC23392 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sulsel/Pods-Sulsel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B5070A98F45CC8D8B34C63A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sulsel/Pods-Sulsel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sulsel/Pods-Sulsel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BDDFC70986B39B1FB35195E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sulsel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6336DBE1FC701C300A0CE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6336DC81FC701C300A0CE9B /* ViewController.swift in Sources */,
+				D6336DC61FC701C300A0CE9B /* AppDelegate.swift in Sources */,
+				D6336DF81FC7063F00A0CE9B /* DetailViewController.swift in Sources */,
+				D6336DF41FC7062400A0CE9B /* ResepTableViewCell.swift in Sources */,
+				D6336DF61FC7063000A0CE9B /* ResepTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6336DD21FC701C300A0CE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6336DDB1FC701C300A0CE9B /* SulselTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6336DDD1FC701C300A0CE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6336DE61FC701C300A0CE9B /* SulselUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6336DD81FC701C300A0CE9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6336DC11FC701C300A0CE9B /* Sulsel */;
+			targetProxy = D6336DD71FC701C300A0CE9B /* PBXContainerItemProxy */;
+		};
+		D6336DE31FC701C300A0CE9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6336DC11FC701C300A0CE9B /* Sulsel */;
+			targetProxy = D6336DE21FC701C300A0CE9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6336DC91FC701C300A0CE9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6336DCA1FC701C300A0CE9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6336DCE1FC701C300A0CE9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6336DCF1FC701C300A0CE9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6336DE81FC701C300A0CE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6336DE91FC701C300A0CE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6336DEB1FC701C300A0CE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E8C3E7E654B1808720D7F35 /* Pods-Sulsel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sulsel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Sulsel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6336DEC1FC701C300A0CE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98DE501A010F6033B17337AA /* Pods-Sulsel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sulsel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Sulsel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6336DEE1FC701C300A0CE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SulselTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.SulselTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sulsel.app/Sulsel";
+			};
+			name = Debug;
+		};
+		D6336DEF1FC701C300A0CE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SulselTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.SulselTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sulsel.app/Sulsel";
+			};
+			name = Release;
+		};
+		D6336DF11FC701C300A0CE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SulselUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.SulselUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sulsel;
+			};
+			name = Debug;
+		};
+		D6336DF21FC701C300A0CE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SulselUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.SulselUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sulsel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6336DBD1FC701C300A0CE9B /* Build configuration list for PBXProject "Sulsel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6336DE81FC701C300A0CE9B /* Debug */,
+				D6336DE91FC701C300A0CE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6336DEA1FC701C300A0CE9B /* Build configuration list for PBXNativeTarget "Sulsel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6336DEB1FC701C300A0CE9B /* Debug */,
+				D6336DEC1FC701C300A0CE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6336DED1FC701C300A0CE9B /* Build configuration list for PBXNativeTarget "SulselTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6336DEE1FC701C300A0CE9B /* Debug */,
+				D6336DEF1FC701C300A0CE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6336DF01FC701C300A0CE9B /* Build configuration list for PBXNativeTarget "SulselUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6336DF11FC701C300A0CE9B /* Debug */,
+				D6336DF21FC701C300A0CE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6336DBA1FC701C300A0CE9B /* Project object */;
+}
